@@ -24,4 +24,13 @@
 
 7. To check the commit id of every modification you made
   git reflog
-  
+
+8. The concept of working directory, repository and stage
+   When you are modifying a file, you are making modifications in working directory. To add it to the repository, you should first use command "git add filename" to add the file in the stage, than submit the changes in the stage to the repository using command "git commit".
+
+9. To revoke the modification done in working directory
+  git checkout -- filename
+  ###: This command applies to two situations
+       a. If the file has not been added to the stage, the file will go back to the same as that in the repository.
+       b. If the file has been added to the stage, but was modified afterwards, the file will go back to the same as that in the stage.
+       
