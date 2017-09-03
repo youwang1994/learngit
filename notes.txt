@@ -41,3 +41,5 @@
 11. To delete a file from repository
   git rm filename
   git commit -m "comment"
+
+12. Use ssh key to protect your repository. Nobody else can write it but it can be read by public.
