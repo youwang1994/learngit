@@ -14,3 +14,14 @@
 
 5. To check the difference you did to the repository (this should be used before add)
   git diff
+
+6. To go back to a specific version
+  git reset --hard HEAD^
+  or
+  git reset --hard HEAD-1
+  or
+  git reset --hard <commit id>
+
+7. To check the commit id of every modification you made
+  git reflog
+  
