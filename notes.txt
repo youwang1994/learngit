@@ -33,4 +33,7 @@
   ###: This command applies to two situations
        a. If the file has not been added to the stage, the file will go back to the same as that in the repository.
        b. If the file has been added to the stage, but was modified afterwards, the file will go back to the same as that in the stage.
-       
+
+10. To revoke the modification added to the stage
+  git reset HEAD filename
+  ###: This command simply make the situation go back to item 9. 
