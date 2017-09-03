@@ -1,0 +1,16 @@
+1. To create a new repository
+  git init
+
+2. To add files to the current repository
+  git add filename1
+  git add filename2 filename3
+  git commit -m "modification you did"
+
+3. To check the status of the current repository
+  git status
+
+4. To check the modification you did to the repository
+  git log
+
+5. To check the difference you did to the repository (this should be used before add)
+  git diff
