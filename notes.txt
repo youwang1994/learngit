@@ -43,3 +43,11 @@
   git commit -m "comment"
 
 12. Use ssh key to protect your repository. Nobody else can write it but it can be read by public.
+
+13. To synchronize local repository and remote repository using github.
+  create an empty repository on github
+  git remote add origin git@github.com:youwang1994/learngit.git
+  git push -u origin master
+
+14. To submit the latest modification to the remote repository
+  git push origin master
