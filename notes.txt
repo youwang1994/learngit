@@ -58,4 +58,7 @@
   git checkout dev #switch to branch dev
   git checkout -b dev #create and switch to branch dev
   git merge dev #merge branch dev to current branch
-  git branch -d dev #delete branch dev
+  git branch -d dev #delete branch dev1
+
+16. If two branches cannot be merged / have a conflict, solve the conflict than merge.
+  git log --graph #see the graph of merging
