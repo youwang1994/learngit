@@ -51,3 +51,11 @@
 
 14. To submit the latest modification to the remote repository
   git push origin master
+
+15. About branch
+  git branch dev #create a new branch
+  git branch #see current branches
+  git checkout dev #switch to branch dev
+  git checkout -b dev #create and switch to branch dev
+  git merge dev #merge branch dev to current branch
+  git branch -d dev #delete branch dev
